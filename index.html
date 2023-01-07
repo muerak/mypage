@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2023년 버킷리스트</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap');
+        * {
+            font-family: 'Gowun Batang', serif;
+        }
+        .bg {
+            width: 360px;
+            background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bg-grid.png");
+        }
+
+        .title {
+            color: white;
+            background-color: rgba(67, 56, 192, 0.788);
+            font-size: 24px;
+            padding: 8px 14px;
+            border-radius: 8px;
+        }
+
+        .msg {
+            font-weight: bold;
+        }
+
+        .bucket {
+            width: 160px;
+            height: 160px;
+        }
+
+        .img1-t2 {
+            background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-red.png");
+            background-size: cover;
+            background-position: center;
+        }
+
+        .img2-t2 {
+            background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-lightred.png");
+            background-size: cover;
+            background-position: center;
+        }
+        div :hover {
+            transform: scale(1.1);
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/sparta-bucket2.css">
+</head>
+
+<body class="bg center">
+    <h1 class="title">❤ 2023 나의 목표 ❤</h1>
+    <p class="msg">후회까지 안고 살아가진 말자</p>
+    <div class="row flex-row wrap">
+        <div class="bucket img2-t2 center" onMouseOver="this.innerHTML='이왕 하는 거 성적 장학금도 노려보자!'"  onMouseOut="this.innerHTML='학점 4.0 이상 유지하기'">학점 4.0 이상 유지하기</div>
+        <div class="bucket img2-t2 center" onMouseOver="this.innerHTML='간단한 거라도 끝까지 책임을 갖고 하자!'"  onMouseOut="this.innerHTML='프로젝트 진행하기'">프로젝트 진행하기</div>
+        <div class="bucket img1-t2 center" onMouseOver="this.innerHTML='배웠던 언어 복습을 철저히 하자!'"  onMouseOut="this.innerHTML='언어 최소 한 개는 공략하기'">언어 최소 한 개는 공략하기</div>
+        <div class="bucket img1-t2 center" onMouseOver="this.innerHTML='캡스톤 대비해서 미리 공부하자!'"  onMouseOut="this.innerHTML='유니티 공부하기'">유니티 공부하기</div>
+        <div class="bucket img2-t2 center" onMouseOver="this.innerHTML='알만툴 가격을 생각해서라도 열심히 하자!'"  onMouseOut="this.innerHTML='알만툴로 게임 제작하기'">알만툴로 게임 제작하기</div>
+        <div class="bucket img2-t2 center" onMouseOver="this.innerHTML='내 노력의 결과를 보여주자!'"  onMouseOut="this.innerHTML='취업하기(제발)'">취업하기(제발)</div>
+    </div>
+</body>
+
+</html>
